@@ -10,7 +10,7 @@ class NewsController extends Controller
     {
     // Показать новости
     return view('News/index', [
-        'news'=>$this->newsList
+        'newsList'=>$this->newsList
     ]);
     }
 
